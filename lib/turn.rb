@@ -19,7 +19,7 @@ def valid_move?(board, index)
     if !position_taken? (board, index)
       return true
     end
-  end    
+  end
 end
 
 def position_taken?(array, ind)
