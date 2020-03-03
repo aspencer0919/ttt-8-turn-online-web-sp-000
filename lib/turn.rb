@@ -34,7 +34,7 @@ def move(board, converted_input, player_character="X")
   board[converted_input] = player_character
 end
 
-def turn (user_input)
+def turn (board)
   puts "Please enter 1-9:"
   user_input = gets.chomp
   index = input_to_index (user_input)
