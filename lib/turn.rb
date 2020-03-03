@@ -14,7 +14,8 @@ def input_to_index(user_input)
   converted_input = user_input.to_i - 1
 end
 
-def valid_move?(board, index)
+def valid_move?(board, index)  def on_board?(num)
+
 end
 
 def position_taken?(array, ind)
